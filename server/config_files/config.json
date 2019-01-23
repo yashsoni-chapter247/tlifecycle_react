@@ -1,0 +1,14 @@
+{
+    "development": {
+        "PORT": 3000,
+        "MONGODB_URI": "mongodb://localhost:27017/tlifecycle",
+        "JWT_SECRET": "SECRET#123",
+        "JWT_EXP": "30m"
+    },
+    "production": {
+        "PORT": 3000,
+        "MONGODB_URI": "mongodb://sonu.chapter:chapter247@ds139534.mlab.com:39534/tlifecycle",
+        "JWT_SECRET": "SECRET#123456",
+        "JWT_EXP": "20m"
+    }
+}
